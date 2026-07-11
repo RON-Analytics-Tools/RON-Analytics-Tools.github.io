@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RON Analytics Tools — Ready or Not Performance Analyzers 2026</title>
+    <meta name="description" content="Advanced performance analysis and telemetry tools for Ready or Not. Improve your gameplay with real-time tracking, aim assist, and visual overlays." />
+    <link rel="canonical" href="https://ron-analytics-tools.github.io/" />
+
+    <meta property="og:title" content="RON Analytics Tools" />
+    <meta property="og:description" content="Collection of performance analyzers and telemetry overlays for Ready or Not." />
+    <meta property="og:url" content="https://ron-analytics-tools.github.io/" />
+    <meta property="og:type" content="website" />
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #0a0a0f;
+            color: #e0e0e0;
+            line-height: 1.6;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 900px;
+            width: 100%;
+            background: linear-gradient(145deg, #12121a, #1a1a24);
+            padding: 40px;
+            border-radius: 20px;
+            border: 1px solid #2a2a3a;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+        }
+        h1 {
+            font-size: 2.4rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            border-left: 3px solid #3b82f6;
+            padding-left: 16px;
+        }
+        .badge {
+            display: inline-block;
+            background: #3b82f6;
+            color: #fff;
+            padding: 4px 14px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            margin-right: 8px;
+        }
+        .badge-green { background: #22c55e; }
+        .card {
+            background: #1a1a2a;
+            border-radius: 14px;
+            padding: 24px;
+            margin-bottom: 20px;
+            border: 1px solid #2a2a3e;
+            transition: all 0.3s;
+        }
+        .card:hover {
+            border-color: #3b82f6;
+            box-shadow: 0 0 30px rgba(59, 130, 246, 0.1);
+        }
+        .card h2 {
+            font-size: 1.6rem;
+            color: #e2e8f0;
+            margin-bottom: 6px;
+        }
+        .card h2 a {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-decoration: none;
+        }
+        .card p { color: #94a3b8; margin: 8px 0; }
+        .card .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 12px 0;
+        }
+        .card .feature-tag {
+            background: #1e1e2e;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 0.75rem;
+            color: #94a3b8;
+            border: 1px solid #2a2a3e;
+        }
+        .card .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            color: #fff;
+            padding: 10px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: all 0.3s;
+            margin-top: 10px;
+        }
+        .card .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(59, 130, 246, 0.3);
+        }
+        .footer-meta {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #475569;
+            text-align: center;
+            border-top: 1px solid #1e1e2a;
+            padding-top: 20px;
+        }
+        .top-nav {
+            display: flex;
+            gap: 20px;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+        .top-nav a {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .top-nav a:hover {
+            color: #3b82f6;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 24px; }
+            h1 { font-size: 1.8rem; }
+            .card h2 { font-size: 1.3rem; }
+            .top-nav { justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-nav">
+            <a href="https://ron-analytics-tools.github.io/">Home</a>
+            <a href="https://ron-analytics-tools.github.io/about.html">About</a>
+        </div>
+        <h1>⚡ RON ANALYTICS TOOLS</h1>
+        <div class="subtitle">
+            <span class="badge">COLLECTION</span>
+            <span class="badge badge-green">OPEN SOURCE</span>
+            Performance Analyzers 2026
+        </div>
+        <p style="color: #cbd5e1; margin-bottom: 30px;">
+            A collection of advanced performance analysis and telemetry tools for Ready or Not.
+            Each tool provides real-time tracking, visual overlays, and gameplay improvement features.
+        </p>
+
+        <div class="card">
+            <h2><a href="https://ron-analytics-tools.github.io/ronfentry/">⚡ RONFENTRY</a></h2>
+            <p>Advanced internal multitool with 60+ premium features including crystal ESP, smart aimbot, God Mode, NoClip, Infinite Ammo, and instant mission tools.</p>
+            <div class="features">
+                <span class="feature-tag">60+ Features</span>
+                <span class="feature-tag">Crystal ESP</span>
+                <span class="feature-tag">Smart Aimbot</span>
+                <span class="feature-tag">God Mode</span>
+                <span class="feature-tag">NoClip</span>
+            </div>
+            <a class="btn" href="https://ron-analytics-tools.github.io/ronfentry/">View Tool →</a>
+        </div>
+
+        <div class="card">
+            <h2><a href="https://ron-analytics-tools.github.io/async-trainer/">⚡ ASYNC TRAINER</a></h2>
+            <p>Powerful and stable trainer with 30+ hotkey options: Immortality, Infinite Ammo, No Recoil, Enemies Surrender, Teleports, Speed Hacks, and more.</p>
+            <div class="features">
+                <span class="feature-tag">30+ Hotkeys</span>
+                <span class="feature-tag">God Mode</span>
+                <span class="feature-tag">No Recoil</span>
+                <span class="feature-tag">Teleport</span>
+                <span class="feature-tag">Speed Hacks</span>
+            </div>
+            <a class="btn" href="https://ron-analytics-tools.github.io/async-trainer/">View Tool →</a>
+        </div>
+
+        <div class="footer-meta">
+            RON Analytics Tools — Collection of Performance Analyzers 2026
+        </div>
+    </div>
+</body>
+</html>
